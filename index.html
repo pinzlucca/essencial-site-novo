@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Essencial</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+
+    <link rel="stylesheet" href="./styles/global.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./js/reveal.js" defer></script>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <img src="assets/LOGO-BRANCO.png" alt="">
+            <ul class="nav" id="nav">
+                <li>
+                    <a id="navlink" class="nav__link" target="_blank" href="vagas.html">VAGAS</a>
+                </li>
+                <li>
+                    <a id="navlink" href="teste.html" class="nav__link">QUEM SOMOS</a>
+                </li>
+                <li>
+                    <a id="navlink" href="#nossos-serviços" class="nav__link">NOSSOS SERVIÇOS</a>
+                </li>
+                <li>
+                    <a id="navlink" href="#solicite-orçamento" class="nav__link">SOLICITE UM ORÇAMENTO</a>
+                </li>
+            </ul>
+
+            <!-- MENU MOBILE -->
+
+            <button type="button" id="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </header>
+        <main>
+            <section class="home">
+                <div id="background"></div>
+                
+                <div class="home__content text-reveal">
+                    <h1>Há mais<br>
+                        de 10 anos <br>
+                        oferencendo<br>
+                        soluções <br> 
+                        práticas e<br> 
+                        inteligentes
+                    </h1>
+                </div>
+                <img src="assets/CUBO SEM SOMBRA.webp" class="img-reveal" alt="">
+            </section>
+
+            <section class="section_h2">
+                <h2 class="title-reveal" id="QUEMSOMOS"> QUEM SOMOS </h2>
+            </section>
+
+            <section class="quemSomos">
+                
+            <!-- TEXTO QUEM SOMOS UM COM QUEBRA DE LINHA QUE É DESATIVADO DEPOIS DO TAMANHO DA TELA SER 630PX E O SEM QUEBRA DE LINHA É ATIVADO -->
+
+                <div class="quemSomos_text Qsomos-reveal">
+                    <span> 
+                        A Essencial é reconhecida como uma das principais   
+                        Empresas especializadas em serviços de Limpeza e  
+                        Portaria. Nossa missão é fornecer serviços confiáveis  
+                        de maneira prática e inteligente. Estamos empenhados  
+                        em estabelecer relacionamentos duradouros com   
+                        nossos clientes e parceiros, priorizando sua fidelização.   
+                        Ao longo de nossa trajetória, conquistamos uma sólida  
+                        reputação pautada na integridade e em altos níveis de  
+                        desempenho, refletindo-se em tudo o que realizamos.
+                    </span>
+                    <p> 
+                        A Essencial é reconhecida como uma das principais   <br>
+                        Empresas especializadas em serviços de Limpeza e  <br>
+                        Portaria. Nossa missão é fornecer serviços confiáveis  <br>
+                        de maneira prática e inteligente. Estamos empenhados  <br>
+                        em estabelecer relacionamentos duradouros com   <br>
+                        nossos clientes e parceiros, priorizando sua fidelização. <br>
+                        Ao longo de nossa trajetória, conquistamos uma sólida  <br>
+                        reputação pautada na integridade e em altos níveis de  <br>
+                        desempenho, refletindo-se em tudo o que realizamos.  <br>
+                    </p>
+
+                </div>
+
+                <!-- SLIDES -->
+                
+                <div class="slider reveal-delay1">
+                        <!-- radio btn -->
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+                        <input type="radio" name="radio-btn" id="radio4">
+
+                <!-- fim radio btn  -->
+                    
+                <!-- Slides image -->
+                        <div class="slide first">
+                            <img src="assets/essencial-fachada.jpg">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/essencial-52.jpg">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/essencial-27.jpg">
+                        </div>
+                        <div class="slide">
+                            <img src="assets/essencial-16.jpg">
+                        </div>
+                <!-- fim Slides image -->
+
+                <!-- navegation auto -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                <!--fim navegation auto -->
+                    </div>
+
+                    <div class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        <label for="radio4" class="manual-btn"></label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PLANTAO ICON -->
+            <a class="plantao" href="https://web.whatsapp.com/" target="_blank"><img src="assets/ICONE WHATSAPP.svg" alt=""></a>
+
+            <!-- IMAGEM SEGURANÇA + VALORES DA EMPRESA -->
+            <section class="valor">
+
+                <div class="valor-img">
+                    <img src="assets/FOTO SEGURANÇA.webp" width="70%" alt="">
+                </div>
+        
+                <div class="valor-text">
+
+                    <img src="assets/missao-new.webp" class="icone">
+                    <p class="missao">
+                        <span>MISSÃO </span><br>
+                        Oferecer aos clientes serviços que agregam valor e qualidade de vida, gerando assim riquezas  de forma sustentável.
+                    </p>
+                
+                    <img src="assets/visao-new.webp"  class="icone">
+                    <p class="visao">
+                        <span>VISÃO</span><br>
+                        Ter na memória de cada colaborador, fornecedor e cliente, que a qualidade de nosso atendimento, atinge as necessidades da instituição.
+                        Criando assim um relacionamento duradouro.
+                    </p>
+                    
+                    <img src="assets/valores-new.webp" class="icone3">
+                    <p class="valores">
+                        <span>VALORES</span><br>
+                        A Essencial prioriza trabalhar de forma transparente, a fim de manter a credibilidade e mostrar a cada cliente que existe comprometimento 
+                        e  inovação, objetivando superar resultados.
+                    </p>
+                    
+                </div>
+            </section>
+
+            <!-- CARD COM OS NOSSOS SERVIÇOS -->
+            <section class="serviços-container" id="nossos-serviços">
+                <h3 class="title-ns title-reveal" id="nossos-serviços">NOSSOS SERVIÇOS</h3>
+                <div class="container">
+                    <div class="card reveal1 ">
+                        <div class="content">
+                            <h3 class="title">PORTARIA</h3>
+                            <p class="data">
+                                Nossos profissionais trabalham identificados e 
+                                uniformizados e nossa estrutura conta também com 
+                                supervisão operacional 24 horas e visitas periódicas 
+                                para avaliação contínua dos serviços prestados.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="card reveal2">
+                        <div class="content">
+                            <h3 class="title">LIMPEZA</h3>
+                            <p class="data"> 
+                                Nossos profissionais são capacitados 
+                                a exercer a função com toda responsabilidade 
+                                e utilizam-se de equipamentos e EPIs apropriados 
+                                para cada tipo de serviço.
+                            </p>
+                        </div>
+                    </div>
+        
+                    <div class="card reveal3">
+                        <div class="content">
+                            <h3 class="title">TEMPORÁRIOS</h3>
+                            <p class="data">
+                                Fornecemos o serviço de mão de obra temporária 
+                                para resolver situações especiais como: aumento 
+                                de demanda, sazonalidade, substituição de profissionais 
+                                em férias, licenças médicas ou em qualquer outra situação 
+                                emergencial com contratos flexísiveis e custo benefício atrativo.
+                            </p>
+                        </div>
+                    </div>   
+                </div>
+            </section>
+
+            <!-- opção de ao clicar no link levar ao recrut para enviar o curriculo -->
+            <div class="vagas-team">
+                <p>
+                    Venha fazer parte da nossa equipe! <br>
+                    <a href="essencial.com.br" target="_blank" >Clique aqui </a>para exclusão dos dados
+                </p>
+                <a class="link-vaga" target="_blank" href="https://zinrecbr.intervieweb.it/millantavaresapoioadministrativo/br/career">
+                    ENVIE SEU CURRÍCULO!
+                </a>
+            </div>
+
+            <!-- secção com imagens e slider  dos logos dos nossos clientes com base nesse video https://www.youtube.com/watch?v=749ta0nvj8s&t=397s-->
+            <section class="nossos-clientes">
+                <div>
+                    <h4>NOSSOS CLIENTES</h4>
+                </div>
+              
+                <div class="teste">
+                    <div class="slideshow-container">
+                        <div class="slides-Clientes">
+                            <div class="slideCliente">
+                                <img src="assets/clientes/bigbom.webp">
+                                <img src="assets/clientes/Campedrini-2021.webp">
+                                <img src="assets/clientes/CLYDE_IND_4CP.webp">
+                                <img src="assets/clientes/bigbom.webp">
+                            </div>
+                            <div class="slideCliente">
+                                <img src="assets/clientes/EMBALATEC.webp">
+                                <img src="assets/clientes/gaplanpb.webp">
+                                <img src="assets/clientes/guacuEmbalagens.png">
+                                <img src="assets/clientes/Hospital-São-Francisco-logo-1.webp">
+                            </div>
+                            <div class="slideCliente">
+                                <img src="assets/clientes/logo-smart-fit-2048.webp">
+                                <img src="assets/clientes/marangoni.webp">
+                                <img src="assets/clientes/montreal.webp">
+                                <img src="assets/clientes/bigbom.webp">
+                            </div>
+                            <div class="slideCliente">
+                                <img src="assets/clientes/CLYDE_IND_4CP.webp">
+                                <img src="assets/clientes/bigbom.webp">
+                                <img src="assets/clientes/bigbom.webp">
+                                <img src="assets/clientes/bigbom.webp">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FORMULARIO -->
+            <section class="form-orçamento" id="solicite-orçamento">
+                <div class="container-form reveal-delay1">
+                    <h5 id="solicite-orçamento">SOLICITE UM ORÇAMENTO</h5>
+                    <form id="contactForm">
+                        <input type="text" id="nome" placeholder="Nome" name="nome" required>
+                        <input type="text" id="nome-empresa" placeholder="Nome da Empresa" name="nome-empresa" required>
+                        <input type="email" id="email" placeholder="Email para contato" name="email" required>
+                        <input type="text" id="telefone" placeholder="Telefone" name="telefone" required>
+                        <textarea id="mensagem" placeholder="Sua mensagem" name="mensagem" required></textarea>
+                        <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                    </form>
+                    <div id="response"></div>
+                </div>
+            </section>
+
+            <!-- RODAPÉ -->
+            <footer class="rodape" id="contato">
+                
+                <div class="contato_container">
+                    <img src="assets/LOGOTESTE.png">
+                    <div class="contato">
+                        <i class="ri-mail-line"></i>
+                        <span>E-mail: comercial@essencial.com.br<br></span>
+                        <i class="ri-customer-service-fill"></i>
+                        <span>Tel: (19) 3569-7010 | 3569-7011<br></span>
+                        <i class="ri-whatsapp-line"></i>
+                        <span>Whatsapp: (19) 98783-2377</span> <br>
+
+                        <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+        
+                        <a href="https://www.instagram.com/grpessencial/" target="_blank">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+        
+                        <a href="https://br.linkedin.com/company/grpessencial" target="_blank">
+                        <i class="ri-linkedin-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="endereço">
+                    <ul>Endereço:</ul>
+                    <li>Rua Noel Franco da Silva, 139</li>
+                    <li>Lot. Parque Real Guacu,</li>
+                    <li> Mogi Guaçu - SP</li>
+                    <li>CEP: 13845-070</li>
+                <span class="copy">&#169; Essencial todos os direitos reservados</span>
+                </div>
+                
+                <div class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1844.7419838610815!2d-46.95422199334518!3d-22.373105559918173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c857a79f4e2267%3A0x100f53625883b008!2sEssencial%20Prestadora%20de%20Servi%C3%A7os!5e0!3m2!1spt-BR!2sbr!4v1706799212364!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            
+                <!-- FOOTER MOBILE -->
+                <div class="endereço__mobile">
+                
+                    <ul>Endereço</ul>
+                    <li>Rua Noel Franco da Silva, 139</li>
+                    <li>Lot. Parque Real Guacu,</li>
+                    <li> Mogi Guaçu - SP</li>
+                    <li>CEP: 13845-070</li>
+                    <li>Tel: (19) 3569-7010 | 3569-7011</li>
+                    <a href="https://www.facebook.com/?locale=pt_BR" target="_blank">
+                        <i class="ri-facebook-circle-line"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/grpessencial/" target="_blank">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://br.linkedin.com/company/grpessencial" target="_blank">
+                    <i class="ri-linkedin-fill"></i>
+                    </a><br>
+                    <span class="copy">&#169; Essencial todos os direitos reservados</span>
+                </div>
+                <!-- BTN SCROLL -->
+                <a href="#" class="btn"></a>
+            </footer>
+        </main>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="./js/mobilebtn.js"></script>
+    <script src="./js/clienteSlide.js"></script>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(this);
+
+            try {
+                const response = await fetch('/api/contact', {
+                    method: 'POST',
+                    body: JSON.stringify({
+                        nome: formData.get('nome'),
+                        nomeEmpresa: formData.get('nome-empresa'),
+                        email: formData.get('email'),
+                        telefone: formData.get('telefone'),
+                        mensagem: formData.get('mensagem')
+                    }),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const data = await response.json();
+                document.getElementById('response').innerText = data.message;
+            } catch (error) {
+                console.error('Error submitting form:', error);
+            }
+        });
+    </script>
+</body>

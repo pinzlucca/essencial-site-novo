@@ -1,0 +1,111 @@
+.plantao-container{
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.duvida-container{
+    margin-left: 15rem;
+}
+
+.duvida-container span{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--blue);
+}
+
+.duvida-container ul li{
+    font-size: 1.3rem;
+    
+    color: var(--blue);
+}
+
+.whatsapp-container{
+    margin-right: 15rem;
+}
+
+.whatsapp-container a i{
+    font-size: 10rem;
+    color: var(--blue);
+}
+
+@media (max-width:1300px){
+    .duvida-container{
+        margin-left: 10rem;
+    }
+
+    .whatsapp-container{
+        margin-right: 10rem;
+    }
+}
+
+@media (max-width:1050px){
+    .duvida-container{
+        margin-left: 2rem;
+    }
+
+    .whatsapp-container{
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width:630px){
+    .duvida-container span{
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--blue);
+    }
+
+    .duvida-container ul li{
+        font-size: 1rem;
+        list-style: none;
+        color: var(--blue);
+    }
+
+    .whatsapp-container a i{
+        font-size: 7rem;
+        color: var(--blue);
+    }
+
+}
+
+@media (max-width:450px){
+    .duvida-container{
+        margin-left: 1rem;
+    }
+
+    .whatsapp-container{
+        margin-right: 1rem;
+    }
+
+    .duvida-container span{
+        font-size: 1.2rem;
+        font-weight: 500;
+        color: var(--blue);
+    }
+
+    .duvida-container ul li{
+        font-size: 0.8rem;
+        list-style: none;
+        color: var(--blue);
+    }
+
+    .whatsapp-container a i{
+        font-size: 5rem;
+        color: var(--blue);
+    }
+
+}
+
+@media (max-width:350px){
+    .whatsapp-container a i{
+        font-size: 3.5rem;
+        color: var(--blue);
+    }
+    .duvida-container ul li{
+        display: none;
+    }
+}
